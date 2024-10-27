@@ -1,8 +1,7 @@
 
 ## **Spatial Transcriptomics of Human Colorectal Cancer**
 
-This repository contains a spatial transcriptomics analysis of human colorectal cancer, using data obtained from the 10X Genomics dataset.
-https://www.10xgenomics.com/datasets/human-colorectal-cancer-whole-transcriptome-analysis-1-standard-1-2-0
+This repository contains a spatial transcriptomics analysis of human colorectal cancer, using data obtained from the [10X Genomics Dataset](https://www.10xgenomics.com/datasets/human-colorectal-cancer-whole-transcriptome-analysis-1-standard-1-2-0).
 
 **Files in This Repository**
 * Parent_Visium_Human_ColorectalCancer_filtered_feature_bc_matrix.h5: Filtered gene expression data matrix for the sample, storing the expression levels for each gene across different spatial barcodes.
