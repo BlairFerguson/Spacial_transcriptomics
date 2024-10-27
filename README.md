@@ -24,18 +24,17 @@ The analysis is divided into the following key steps:
 **Dataset Information**
 Sample: Fresh frozen invasive adenocarcinoma of the large intestine.
 Source: Provided by BioIVT Asterand and processed with the 10X Genomics Visium platform.
-Data Link: [10X Genomics Dataset]([https://](https://www.10xgenomics.com/datasets/human-colorectal-cancer-whole-transcriptome-analysis-1-standard-1-2-0))
-How to Use This Repository
-Clone the repository and download the dataset files from 10X Genomics.
-Open the Spatial_Transcriptomics_Colorectal_cancer.ipynb notebook.
-Follow the steps within the notebook to reproduce the analysis and visualize the spatial distribution of gene expression within the tissue sample.
-Requirements
+Data Link: [10X Genomics Dataset](https://www.10xgenomics.com/datasets/human-colorectal-cancer-whole-transcriptome-analysis-1-standard-1-2-0)
+
+**Dependancies:**
+
 The notebook uses the following Python packages:
 
-scanpy
-h5py
-matplotlib
-seaborn
-umap-learn
-scipy
-pandas
+* scanpy
+* h5py
+* matplotlib
+* seaborn
+* umap-learn
+* scipy
+* pandas
+* gprofiler-official
